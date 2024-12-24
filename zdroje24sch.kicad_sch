@@ -5,9 +5,12 @@
 	(uuid "c5b47637-0da9-4cd4-8416-8a4dfb724a60")
 	(paper "A4")
 	(title_block
-		(title "Napájecí zdroj KMŽ/LRKV 2024/2025")
+		(title "Napájecí zdroj kolejišť KMŽ/LRKV 2024/2025")
 		(date "2024-12-24")
 		(rev "1.0")
+		(company "Jan Horáček, Miroslav Horáček")
+		(comment 1 "Klub modelářů železnic Brno I, p. s.")
+		(comment 2 "Laboratoř řízení kolejových vozidel MENDELU")
 	)
 	(lib_symbols
 		(symbol "Connector:IEC_60320_C14_Receptacle"
@@ -2485,13 +2488,7 @@
 		)
 	)
 	(junction
-		(at 74.93 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09393dda-585e-4e72-a152-ac73d398c12b")
-	)
-	(junction
-		(at 72.39 91.44)
+		(at 85.09 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a60e18f-b6e8-448d-a3ee-e589771193ba")
@@ -2507,12 +2504,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20a37bee-5a62-473a-b168-1b8f83b87a5c")
-	)
-	(junction
-		(at 95.25 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3692dee1-8a42-45d5-8e66-616f69050d63")
 	)
 	(junction
 		(at 127 50.8)
@@ -2537,6 +2528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "638d8bf2-f43d-4392-a214-85d803ee11ac")
+	)
+	(junction
+		(at 95.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ccfeb4-5b33-4efe-8ead-292c36947434")
 	)
 	(junction
 		(at 215.9 152.4)
@@ -2585,6 +2582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c98844eb-d6b1-49b1-b4fa-771f97c642ec")
+	)
+	(junction
+		(at 87.63 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df3a8fbe-d9d6-4a1e-93a7-cd6dbe240e2a")
 	)
 	(junction
 		(at 97.79 119.38)
@@ -2722,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 55.88 96.52)
+			(xy 71.12 96.52) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 55.88 86.36)
+			(xy 45.72 86.36) (xy 53.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 74.93 86.36)
+			(xy 83.82 86.36) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 91.44) (xy 72.39 91.44)
+			(xy 83.82 91.44) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3175,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 86.36) (xy 95.25 38.1)
+			(xy 87.63 86.36) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a55ed54-5697-40a5-b5ba-f0bb1b7e5e5f")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3182,13 +3195,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 55.88 102.87)
+			(xy 68.58 96.52) (xy 68.58 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d10e802-83a2-47ca-ab68-fcdae7a09e33")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f824639-d6d0-4b8f-9608-0721a123c280")
 	)
 	(wire
 		(pts
@@ -3242,7 +3265,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 97.79 91.44)
+			(xy 85.09 91.44) (xy 97.79 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3302,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 74.93 86.36)
+			(xy 87.63 102.87) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3342,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 102.87) (xy 74.93 102.87)
+			(xy 68.58 102.87) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 96.52) (xy 72.39 96.52)
+			(xy 81.28 96.52) (xy 85.09 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3432,16 +3455,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 95.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6e3746-e0e6-46b2-af6a-b0d73fd1098d")
-	)
-	(wire
-		(pts
 			(xy 151.13 88.9) (xy 157.48 88.9)
 		)
 		(stroke
@@ -3449,16 +3462,6 @@
 			(type default)
 		)
 		(uuid "be4fec64-ab6e-41bd-b36e-727b1fc1ea0f")
-	)
-	(wire
-		(pts
-			(xy 95.25 86.36) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf586680-7030-4ef9-af98-a65d6f025f4b")
 	)
 	(wire
 		(pts
@@ -3472,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 45.72 91.44)
+			(xy 68.58 91.44) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3572,6 +3575,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 86.36) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0e90f1-b2d2-40f9-ae2e-70e56fc5135f")
+	)
+	(wire
+		(pts
 			(xy 95.25 114.3) (xy 104.14 114.3)
 		)
 		(stroke
@@ -3612,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 72.39 91.44)
+			(xy 85.09 96.52) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3642,16 +3655,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 81.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0efb5aa-1668-478f-a580-681421b3e236")
-	)
-	(wire
-		(pts
 			(xy 236.22 139.7) (xy 236.22 88.9)
 		)
 		(stroke
@@ -3670,9 +3673,19 @@
 		)
 		(uuid "fb4bb6b0-9f0d-43cb-95c9-545fc922b69e")
 	)
+	(text "Uzemnění skříně"
+		(exclude_from_sim no)
+		(at 48.26 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f05b664-eff0-4d28-b1db-88bad957a65b")
+	)
 	(text "Doutnavka LA1\nje součástí\nspínače CB1"
 		(exclude_from_sim no)
-		(at 63.5 107.95 0)
+		(at 76.2 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3680,7 +3693,7 @@
 		)
 		(uuid "42c0f470-fb98-4553-af68-2b5cc5e6a5ac")
 	)
-	(text "Omezení pro návrh:\n* Indikační LED musí být za pojistkou (aby indikovala stav pojistky).\n* Tlačítko by nejspíš mělo být před pojistkou (aby se dala měnit pojistka za vypnutého zdroje)."
+	(text "Omezení pro návrh:\n* Indikační LED musí být za pojistkou (aby indikovala stav pojistky).\n* Tlačítko by nejspíš mělo být před pojistkou (aby se dala měnit pojistka za vypnutého zdroje).\n\nVšechny vodiče 1.5 mm²."
 		(exclude_from_sim no)
 		(at 35.56 175.26 0)
 		(effects
@@ -3730,6 +3743,17 @@
 			)
 		)
 		(uuid "e3f96808-3bbf-4725-9bc1-3d6a1150d10a")
+	)
+	(label "GND"
+		(at 200.66 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0405d3c2-a3ed-4533-a086-e4f0aa9339f4")
 	)
 	(label "GND-SWITCH"
 		(at 260.35 91.44 0)
@@ -3786,6 +3810,50 @@
 		)
 		(uuid "441659f8-21c2-4eab-a61a-7a3648013429")
 	)
+	(label "GND-DSC"
+		(at 200.66 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "530e693f-9ef7-43b2-b89e-5790201eb21e")
+	)
+	(label "GND-SWITCH"
+		(at 200.66 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55394091-34fe-43a4-ac05-5517236c4088")
+	)
+	(label "DSC"
+		(at 200.66 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e3272e3-072e-45fe-abbc-f29430ef6725")
+	)
+	(label "MTB"
+		(at 200.66 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7197cc1a-a378-421b-b7a4-1008de37a8e9")
+	)
 	(label "DSC"
 		(at 247.65 88.9 180)
 		(fields_autoplaced yes)
@@ -3797,6 +3865,39 @@
 		)
 		(uuid "7bec9a5c-4090-4252-9571-15cd29dafb0c")
 	)
+	(label "BOOST+"
+		(at 200.66 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94fc61dc-7361-4c0d-8e9f-b79e14d19503")
+	)
+	(label "ACC"
+		(at 200.66 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98aa791a-f087-41a1-81c3-2222d896eaff")
+	)
+	(label "GND-ACC"
+		(at 200.66 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1b2061a-e3e9-4eab-8495-c37fca3163ec")
+	)
 	(label "GND-DSC"
 		(at 260.35 88.9 0)
 		(fields_autoplaced yes)
@@ -3807,6 +3908,28 @@
 			(justify left bottom)
 		)
 		(uuid "b43cfba1-d21f-4d53-96a4-7e803b6ff74c")
+	)
+	(label "SWITCH"
+		(at 200.66 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b93e3d88-cd73-42f0-ab9c-ea550f07d888")
+	)
+	(label "BOOST-"
+		(at 200.66 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c15b0323-0a91-4fd8-9fe8-c47818ab074b")
 	)
 	(label "GND"
 		(at 247.65 83.82 180)
@@ -3994,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Value" "6.2 A"
+		(property "Value" "6.2 A pomalá"
 			(at 190.5 111.8178 90)
 			(effects
 				(font
@@ -4061,18 +4184,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06e00d06-b587-4178-bd5e-45a07eeac83f")
 		(property "Reference" "J2"
-			(at 254 79.8915 0)
+			(at 254 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 254 81.5729 0)
+		(property "Value" "39-28-1103 MOLEX"
+			(at 254 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Value" "4 A"
+		(property "Value" "4 A pomalá"
 			(at 190.5 61.0178 90)
 			(effects
 				(font
@@ -4290,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 85.09 86.36 90)
+		(at 57.15 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4298,15 +4420,15 @@
 		(dnp no)
 		(uuid "1dead203-89c4-4998-8ca2-bf59189ede22")
 		(property "Reference" "F6"
-			(at 85.09 81.4535 90)
+			(at 57.15 81.4535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4 A slow"
-			(at 85.09 83.8778 90)
+		(property "Value" "4 A pomalá"
+			(at 57.15 83.8778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 88.138 90)
+			(at 57.15 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 86.36 0)
+			(at 57.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4454,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 85.09 86.36 0)
+			(at 57.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4463,7 @@
 			)
 		)
 		(property "Pouzdro" "LS-506"
-			(at 85.09 88.9 90)
+			(at 57.15 88.9 90)
 			(show_name yes)
 			(effects
 				(font
@@ -4517,7 +4639,7 @@
 				)
 			)
 		)
-		(property "Value" "4 A"
+		(property "Value" "4 A pomalá"
 			(at 190.5 86.4178 90)
 			(effects
 				(font
@@ -4647,7 +4769,7 @@
 	)
 	(symbol
 		(lib_id "Device:CircuitBreaker_2P")
-		(at 63.5 88.9 270)
+		(at 76.2 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4656,7 +4778,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ea50304-5966-4cf6-a711-8f40f91389b6")
 		(property "Reference" "CB1"
-			(at 63.5 79.8025 90)
+			(at 76.2 79.8025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4786,7 @@
 			)
 		)
 		(property "Value" "IRS-201-1C3-G/B"
-			(at 63.5 82.2268 90)
+			(at 76.2 82.2268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 86.36 0)
+			(at 76.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 86.36 0)
+			(at 76.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4812,7 @@
 			)
 		)
 		(property "Description" "Double pole circuit breaker"
-			(at 63.5 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4849,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c32437f-fa9f-40b3-b753-bbfa5fa53cb9")
 		(property "Reference" "PS2"
 			(at 114.3 107.6155 0)
@@ -4770,6 +4891,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Výstup" "6.5 A"
+			(at 114.3 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4880,8 +5010,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 139.2555 110.2749 90)
+		(property "Value" "10 A modrá"
+			(at 139.7 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5062,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 63.5 96.52 270)
+		(at 76.2 96.52 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4941,7 +5071,7 @@
 		(dnp no)
 		(uuid "8b71b029-c7b7-4285-a9a6-8565b23f8b08")
 		(property "Reference" "LA1"
-			(at 63.5 100.33 90)
+			(at 76.2 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +5079,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 63.5 100.6532 90)
+			(at 76.2 100.6532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +5087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 96.52 90)
+			(at 78.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 96.52 90)
+			(at 78.74 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5105,7 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 63.5 96.52 0)
+			(at 76.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5272,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "958e4f04-cf63-4279-b165-49f4733668cc")
 		(property "Reference" "PS1"
 			(at 114.3 31.4155 0)
@@ -5187,6 +5316,15 @@
 				(hide yes)
 			)
 		)
+		(property "Výstup" "12.5 A"
+			(at 114.3 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "475077dd-ba7e-4ddf-8c5f-ae91da8575d5")
 		)
@@ -5228,13 +5366,12 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 140.4676 34.29 0)
+		(property "Value" "20 A int. modrá"
+			(at 139.7 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5363,8 +5500,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 139.2555 135.6749 90)
+		(property "Value" "10 A modrá"
+			(at 139.7 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5558,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d251abc6-798a-482c-ba41-dc47e102d2a8")
 		(property "Reference" "PS3"
 			(at 114.3 133.0155 0)
@@ -5466,6 +5602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Výstup" "3.4 A"
+			(at 114.3 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfd1d59a-57d8-4449-8661-0be39a00ffd6")
 		)
@@ -5507,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Value" "6.2 A"
+		(property "Value" "6.2 A pomalá"
 			(at 190.5 35.6178 90)
 			(effects
 				(font
@@ -5788,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Value" "3 A"
+		(property "Value" "3 A pomalá"
 			(at 190.5 137.2178 90)
 			(effects
 				(font
