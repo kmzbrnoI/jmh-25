@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Napájecí zdroj kolejišť KMŽ/LRKV 2024/2025")
-		(date "2024-12-24")
+		(date "2025-01-01")
 		(rev "1.0")
 		(company "Jan Horáček, Miroslav Horáček")
 		(comment 1 "Klub modelářů železnic Brno I, p. s.")
@@ -3693,7 +3693,7 @@
 		)
 		(uuid "42c0f470-fb98-4553-af68-2b5cc5e6a5ac")
 	)
-	(text "Omezení pro návrh:\n* Indikační LED musí být za pojistkou (aby indikovala stav pojistky).\n* Tlačítko by nejspíš mělo být před pojistkou (aby se dala měnit pojistka za vypnutého zdroje).\n\nVšechny vodiče 1.5 mm²."
+	(text "Omezení pro návrh:\n* Indikační LED musí být za pojistkou (aby indikovala stav pojistky).\n* Tlačítko by nejspíš mělo být před pojistkou (aby se dala měnit pojistka za vypnutého zdroje).\n\nVšechny silové vodiče 1.0 mm², PS1-MES1 1.5 mm²."
 		(exclude_from_sim no)
 		(at 35.56 175.26 0)
 		(effects
