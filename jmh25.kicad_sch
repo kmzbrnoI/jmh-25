@@ -7,7 +7,7 @@
 	(title_block
 		(title "Napájecí zdroj kolejišť JMH-25")
 		(date "2025-03-28")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Jan Horáček, Miroslav Horáček")
 		(comment 1 "Klub modelářů železnic Brno I, p. s.")
 		(comment 2 "Laboratoř řízení kolejových vozidel MENDELU")
@@ -2565,7 +2565,7 @@
 	)
 	(text "Napájet přímo\nz výstupu PS2"
 		(exclude_from_sim no)
-		(at 139.7 120.65 0)
+		(at 139.7 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2585,7 +2585,7 @@
 	)
 	(text "Napájet přímo\nz výstupu PS3"
 		(exclude_from_sim no)
-		(at 139.7 146.05 0)
+		(at 139.7 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2595,7 +2595,7 @@
 	)
 	(text "Napájet přímo\nz výstupu PS1"
 		(exclude_from_sim no)
-		(at 139.7 44.45 0)
+		(at 139.7 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,13 +2616,13 @@
 		(uuid "1e55b986-f889-41e7-9434-5082cc073360")
 	)
 	(junction
-		(at 127 76.2)
+		(at 152.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20a37bee-5a62-473a-b168-1b8f83b87a5c")
 	)
 	(junction
-		(at 127 50.8)
+		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "475ae305-4eed-404c-b838-c9659c79ed9e")
@@ -2670,7 +2670,7 @@
 		(uuid "8d2f6489-b8fb-464d-864e-19e41313b6a9")
 	)
 	(junction
-		(at 151.13 38.1)
+		(at 127 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9486326f-c32f-4a63-86f8-a2f7551ea6a6")
@@ -2718,7 +2718,7 @@
 		(uuid "ed168633-e273-4501-8420-6728531ae64d")
 	)
 	(junction
-		(at 151.13 63.5)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f317d20d-1fb6-4663-982e-5b20f14b68a8")
@@ -2751,7 +2751,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 151.13 88.9)
+			(xy 127 63.5) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2791,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 134.62 38.1)
+			(xy 124.46 38.1) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 101.6)
+			(xy 152.4 76.2) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2821,13 +2821,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 139.7) (xy 157.48 139.7)
+			(xy 144.78 127) (xy 215.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bb2ef40-39ca-4966-bda0-e333e4bcc3e3")
+		(uuid "1ac529d7-43af-4d18-ba86-36a5703fd8fd")
 	)
 	(wire
 		(pts
@@ -2971,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 127 76.2)
+			(xy 152.4 50.8) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3008,6 +3008,16 @@
 			(type default)
 		)
 		(uuid "43c2ec8d-bc56-453a-ab22-c9edbaba0a42")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481470b0-9227-41c1-b185-05e2a063ab67")
 	)
 	(wire
 		(pts
@@ -3091,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 215.9 101.6)
+			(xy 152.4 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3151,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 157.48 63.5)
+			(xy 127 63.5) (xy 157.48 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 215.9 152.4)
+			(xy 127 152.4) (xy 134.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3211,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 215.9 76.2)
+			(xy 152.4 76.2) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 215.9 50.8)
+			(xy 152.4 50.8) (xy 215.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3281,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 134.62 139.7)
+			(xy 124.46 139.7) (xy 157.48 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3361,16 +3371,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 38.1) (xy 151.13 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9698dbf6-b3aa-4a07-b36b-66c4bddecfe9")
-	)
-	(wire
-		(pts
 			(xy 260.35 88.9) (xy 274.32 88.9)
 		)
 		(stroke
@@ -3421,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 38.1) (xy 157.48 38.1)
+			(xy 127 38.1) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 127 43.18)
+			(xy 124.46 43.18) (xy 134.62 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3471,13 +3471,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 38.1) (xy 151.13 63.5)
+			(xy 127 38.1) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af012441-e2ac-4109-9546-cef82acda616")
+	)
+	(wire
+		(pts
+			(xy 144.78 152.4) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0733f4c-6381-4c99-b225-f3fe6409a997")
 	)
 	(wire
 		(pts
@@ -3571,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 157.48 88.9)
+			(xy 127 88.9) (xy 157.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3641,17 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 157.48 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32d0803-d183-4079-8ce1-f1ba8534ca19")
-	)
-	(wire
-		(pts
-			(xy 127 43.18) (xy 127 50.8)
+			(xy 152.4 43.18) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 114.3) (xy 134.62 114.3)
+			(xy 124.46 114.3) (xy 157.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 127) (xy 215.9 127)
+			(xy 127 127) (xy 134.62 127)
 		)
 		(stroke
 			(width 0)
@@ -5047,7 +5047,8 @@
 	)
 	(symbol
 		(lib_id "Device:Ammeter_DC")
-		(at 139.7 114.3 90)
+		(at 139.7 127 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5055,7 +5056,7 @@
 		(dnp no)
 		(uuid "82d25701-d04d-480b-8f76-d5f13f62b69b")
 		(property "Reference" "MES2"
-			(at 139.7 109.22 90)
+			(at 139.7 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5064,7 @@
 			)
 		)
 		(property "Value" "10 A modrá"
-			(at 139.7 106.68 90)
+			(at 139.7 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 114.3 90)
+			(at 142.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 114.3 90)
+			(at 142.24 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5090,7 @@
 			)
 		)
 		(property "Description" "DC ammeter"
-			(at 139.7 114.3 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5404,8 @@
 	)
 	(symbol
 		(lib_id "Device:Ammeter_DC")
-		(at 139.7 38.1 90)
+		(at 139.7 43.18 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5411,7 +5413,7 @@
 		(dnp no)
 		(uuid "96591a22-e74a-47a6-a52d-cfd5973c1baa")
 		(property "Reference" "MES1"
-			(at 139.7 33.02 90)
+			(at 139.7 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5421,7 @@
 			)
 		)
 		(property "Value" "20 A int. modrá"
-			(at 139.7 30.48 90)
+			(at 139.7 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 38.1 90)
+			(at 142.24 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 38.1 90)
+			(at 142.24 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5447,7 @@
 			)
 		)
 		(property "Description" "DC ammeter"
-			(at 139.7 38.1 0)
+			(at 139.7 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5539,8 @@
 	)
 	(symbol
 		(lib_id "Device:Ammeter_DC")
-		(at 139.7 139.7 90)
+		(at 139.7 152.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5545,7 +5548,7 @@
 		(dnp no)
 		(uuid "ced55019-e2e9-4d34-af8a-8ab60826f751")
 		(property "Reference" "MES3"
-			(at 139.7 134.62 90)
+			(at 139.7 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5556,7 @@
 			)
 		)
 		(property "Value" "10 A modrá"
-			(at 139.7 132.08 90)
+			(at 139.7 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 139.7 90)
+			(at 142.24 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 139.7 90)
+			(at 142.24 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5582,7 @@
 			)
 		)
 		(property "Description" "DC ammeter"
-			(at 139.7 139.7 0)
+			(at 139.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
